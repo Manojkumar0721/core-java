@@ -34,7 +34,6 @@ public class Parameters{
         }   
     }
     
-
     public static void saveContactInfo(long phoneNumber, String personName){
         System.out.println("contact info : " + phoneNumber + "," + personName);
     }
@@ -42,13 +41,5 @@ public class Parameters{
     public static float division(float x, float y){
         return x/y;
     }
-
-    
-
-    
-    
-   
-
-
 
 }
