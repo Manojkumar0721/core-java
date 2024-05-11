@@ -15,6 +15,9 @@ public class Parameters{
     float z = division(5,7);
     System.out.println(z);
 
+    machine("red");
+    machine("green");    
+
 
 
         
@@ -41,5 +44,17 @@ public class Parameters{
     public static float division(float x, float y){
         return x/y;
     }
+    
+    public static boolean machine(String button){
+        if(button == "red"){
+            System.out.println("Machine Turned ON");
+            return true;
+        }
+        else{
+            System.out.println("Machine Turned OFF");
+            return false;
+        }
+    }
+
 
 }
