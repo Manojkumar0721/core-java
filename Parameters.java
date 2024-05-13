@@ -78,11 +78,6 @@ public class Parameters{
         }
     }
     
-
-    public static void myString(String fname){
-        System.out.println(fname + " kumar");
-    }
-
     public static void myNote(String name){
         System.out.println("WELL COME "+ name +" TO MY HOME");
     }
